@@ -15,9 +15,9 @@ import profile_icon from './profile_icon.png'
 import search_icon from './search_icon.png'
 import menu_icon from './menu_icon.png'
 import cart_icon from './cart_icon.png'
+import hero_img from './hero_img.jpg'
 
 /*
-import hero_img from './hero_img.jpg'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
 import exchange_icon from './exchange_icon.png'
@@ -35,7 +35,7 @@ import cross_icon from './cross_icon.png'
 
 export const assets = {
     logo,
-    //hero_img,
+    hero_img,
     cart_icon,
     profile_icon,
     search_icon,
@@ -53,6 +53,130 @@ export const assets = {
     stripe_logo,
     cross_icon */ 
 }
+
+export const products = [
+    {
+      "id": "1",
+      "name": "Classic Cotton T-Shirt",
+      "description": "A soft and comfortable cotton t-shirt, perfect for everyday wear.",
+      "price": 19.99,
+      "image": "path/to/tshirt-image.jpg",
+      "category": "Clothing",
+      "subCategory": "T-Shirts",
+      "sizes": ["S", "M", "L", "XL"],
+      "date": "2024-12-01",
+      "bestSeller": true
+    },
+    {
+      "id": "2",
+      "name": "Denim Jeans",
+      "description": "Classic-fit denim jeans with a durable and stylish design.",
+      "price": 49.99,
+      "image": "path/to/jeans-image.jpg",
+      "category": "Clothing",
+      "subCategory": "Jeans",
+      "sizes": ["28", "30", "32", "34", "36"],
+      "date": "2024-11-15",
+      "bestSeller": false
+    },
+    {
+      "id": "3",
+      "name": "Leather Handbag",
+      "description": "Premium leather handbag with spacious compartments for everyday essentials.",
+      "price": 89.99,
+      "image": "path/to/handbag-image.jpg",
+      "category": "Accessories",
+      "subCategory": "Handbags",
+      "sizes": [],
+      "date": "2024-12-10",
+      "bestSeller": true
+    },
+    {
+      "id": "4",
+      "name": "Running Shoes",
+      "description": "Lightweight running shoes with excellent grip and comfort.",
+      "price": 59.99,
+      "image": "path/to/shoes-image.jpg",
+      "category": "Footwear",
+      "subCategory": "Sneakers",
+      "sizes": ["6", "7", "8", "9", "10", "11"],
+      "date": "2024-12-05",
+      "bestSeller": true
+    },
+    {
+      "id": "5",
+      "name": "Woolen Scarf",
+      "description": "Warm and stylish woolen scarf, perfect for chilly weather.",
+      "price": 14.99,
+      "image": "path/to/scarf-image.jpg",
+      "category": "Accessories",
+      "subCategory": "Scarves",
+      "sizes": [],
+      "date": "2024-11-20",
+      "bestSeller": false
+    },
+    {
+      "id": "6",
+      "name": "Smartwatch",
+      "description": "Feature-rich smartwatch with fitness tracking and notification features.",
+      "price": 129.99,
+      "image": "path/to/smartwatch-image.jpg",
+      "category": "Electronics",
+      "subCategory": "Wearables",
+      "sizes": [],
+      "date": "2024-12-12",
+      "bestSeller": true
+    },
+    {
+      "id": "7",
+      "name": "Sports Cap",
+      "description": "Adjustable sports cap with a sleek and modern design.",
+      "price": 9.99,
+      "image": "path/to/cap-image.jpg",
+      "category": "Accessories",
+      "subCategory": "Caps",
+      "sizes": ["One Size"],
+      "date": "2024-11-25",
+      "bestSeller": false
+    },
+    {
+      "id": "8",
+      "name": "Winter Jacket",
+      "description": "Insulated winter jacket with a stylish hood and multiple pockets.",
+      "price": 99.99,
+      "image": "path/to/jacket-image.jpg",
+      "category": "Clothing",
+      "subCategory": "Jackets",
+      "sizes": ["M", "L", "XL"],
+      "date": "2024-12-08",
+      "bestSeller": true
+    },
+    {
+      "id": "9",
+      "name": "Yoga Mat",
+      "description": "Durable and lightweight yoga mat with a non-slip surface.",
+      "price": 24.99,
+      "image": "path/to/yogamat-image.jpg",
+      "category": "Fitness",
+      "subCategory": "Mats",
+      "sizes": [],
+      "date": "2024-12-03",
+      "bestSeller": false
+    },
+    {
+      "id": "10",
+      "name": "Sunglasses",
+      "description": "Polarized sunglasses with UV protection and a sleek design.",
+      "price": 29.99,
+      "image": "path/to/sunglasses-image.jpg",
+      "category": "Accessories",
+      "subCategory": "Eyewear",
+      "sizes": [],
+      "date": "2024-12-11",
+      "bestSeller": true
+    }
+  ]
+  
 
 
 
