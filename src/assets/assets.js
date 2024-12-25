@@ -1,30 +1,34 @@
 // TO-DO add each image for the assets objects 
 
-/*
-import p_img1 from './p_img1.jpg'
-import p_img2 from './p_img2.jpg'
-import p_img2_1 from './p_img2_1.jpg'
-import p_img3 from './p_img3.jpg'
-import p_img4 from './p_img4.jpg'
-import p_img5 from './p_img5.jpg'
-import p_img6 from './p_img6.jpg'
-*/
+
+import p_img1 from './p_img1.png'
+import p_img2 from './p_img2.png'
+//import p_img2_1 from './p_img2_1.png'
+import p_img3 from './p_img3.png'
+import p_img4 from './p_img4.png'
+import p_img5 from './p_img5.png'
+import p_img6 from './p_img6.png'
+import p_img7 from './p_img7.png'
+import p_img8 from './p_img8.png'
+import p_img9 from './p_img9.png'
+import p_img10 from './p_img10.png'
+
 
 import logo from './logo.png'
 import profile_icon from './profile_icon.png'
 import search_icon from './search_icon.png'
 import menu_icon from './menu_icon.png'
 import cart_icon from './cart_icon.png'
-import hero_img from './hero_img.jpg'
+import hero_img from './hero_img.png'
+import exchange_icon from './exchange_icon.png'
+import quality_icon from './quality_icon.png'
+import support_icon from './support_icon.png'
 
 /*
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
-import exchange_icon from './exchange_icon.png'
-import quality_icon from './quality_icon.png'
 import star_dull_icon from './star_dull_icon.png'
 import star_icon from './star_icon.png'
-import support_icon from './support_icon.png'
 import about_icon from './about_icon.png'
 import contact_icon from './contact_icon.png'
 import razorpay_logo from './razorpay_logo.png'
@@ -40,13 +44,15 @@ export const assets = {
     profile_icon,
     search_icon,
     menu_icon,
-   /* bin_icon,
-    dropdown_icon,
+    support_icon,
     exchange_icon,
     quality_icon,
+    
+   /* 
+    bin_icon,
+    dropdown_icon,
     star_dull_icon,
     star_icon,
-    support_icon,
     about_icon,
     contact_icon,
     razorpay_logo,
@@ -60,7 +66,7 @@ export const products = [
       "name": "Classic Cotton T-Shirt",
       "description": "A soft and comfortable cotton t-shirt, perfect for everyday wear.",
       "price": 19.99,
-      "image": "path/to/tshirt-image.jpg",
+      "image": [p_img1],
       "category": "Clothing",
       "subCategory": "T-Shirts",
       "sizes": ["S", "M", "L", "XL"],
@@ -72,7 +78,7 @@ export const products = [
       "name": "Denim Jeans",
       "description": "Classic-fit denim jeans with a durable and stylish design.",
       "price": 49.99,
-      "image": "path/to/jeans-image.jpg",
+      "image": [p_img2],
       "category": "Clothing",
       "subCategory": "Jeans",
       "sizes": ["28", "30", "32", "34", "36"],
@@ -84,7 +90,7 @@ export const products = [
       "name": "Leather Handbag",
       "description": "Premium leather handbag with spacious compartments for everyday essentials.",
       "price": 89.99,
-      "image": "path/to/handbag-image.jpg",
+      "image": [p_img3],
       "category": "Accessories",
       "subCategory": "Handbags",
       "sizes": [],
@@ -96,7 +102,7 @@ export const products = [
       "name": "Running Shoes",
       "description": "Lightweight running shoes with excellent grip and comfort.",
       "price": 59.99,
-      "image": "path/to/shoes-image.jpg",
+      "image": [p_img4],
       "category": "Footwear",
       "subCategory": "Sneakers",
       "sizes": ["6", "7", "8", "9", "10", "11"],
@@ -108,7 +114,7 @@ export const products = [
       "name": "Woolen Scarf",
       "description": "Warm and stylish woolen scarf, perfect for chilly weather.",
       "price": 14.99,
-      "image": "path/to/scarf-image.jpg",
+      "image": [p_img5],
       "category": "Accessories",
       "subCategory": "Scarves",
       "sizes": [],
@@ -120,7 +126,7 @@ export const products = [
       "name": "Smartwatch",
       "description": "Feature-rich smartwatch with fitness tracking and notification features.",
       "price": 129.99,
-      "image": "path/to/smartwatch-image.jpg",
+      "image": [p_img6],
       "category": "Electronics",
       "subCategory": "Wearables",
       "sizes": [],
@@ -132,7 +138,7 @@ export const products = [
       "name": "Sports Cap",
       "description": "Adjustable sports cap with a sleek and modern design.",
       "price": 9.99,
-      "image": "path/to/cap-image.jpg",
+      "image": [p_img7],
       "category": "Accessories",
       "subCategory": "Caps",
       "sizes": ["One Size"],
@@ -144,7 +150,7 @@ export const products = [
       "name": "Winter Jacket",
       "description": "Insulated winter jacket with a stylish hood and multiple pockets.",
       "price": 99.99,
-      "image": "path/to/jacket-image.jpg",
+      "image": [p_img8],
       "category": "Clothing",
       "subCategory": "Jackets",
       "sizes": ["M", "L", "XL"],
@@ -156,7 +162,7 @@ export const products = [
       "name": "Yoga Mat",
       "description": "Durable and lightweight yoga mat with a non-slip surface.",
       "price": 24.99,
-      "image": "path/to/yogamat-image.jpg",
+      "image": [p_img9],
       "category": "Fitness",
       "subCategory": "Mats",
       "sizes": [],
@@ -168,7 +174,7 @@ export const products = [
       "name": "Sunglasses",
       "description": "Polarized sunglasses with UV protection and a sleek design.",
       "price": 29.99,
-      "image": "path/to/sunglasses-image.jpg",
+      "image": [p_img10],
       "category": "Accessories",
       "subCategory": "Eyewear",
       "sizes": [],
