@@ -11,9 +11,8 @@ const Footer = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloribus dolore ad quia consequuntur molestiae, commodi soluta aspernatur id, cupiditate, accusamus illo inventore iusto! Aperiam perferendis ullam a accusamus distinctio!
                 </p>
             </div>
-
             <div>
-                <p className='text-xl fotn-medium mb-5'>COMPANY</p>
+                <p className='text-xl font-medium mb-5'>COMPANY</p>
                 <ul className='flex flex-col gap-1 text-grey-600'>
                     <li>Home</li>
                     <li>About Us</li>

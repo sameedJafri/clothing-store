@@ -23,10 +23,10 @@ import hero_img from './hero_img.png'
 import exchange_icon from './exchange_icon.png'
 import quality_icon from './quality_icon.png'
 import support_icon from './support_icon.png'
+import dropdown_icon from './dropdown_icon.png'
 
 /*
 import bin_icon from './bin_icon.png'
-import dropdown_icon from './dropdown_icon.png'
 import star_dull_icon from './star_dull_icon.png'
 import star_icon from './star_icon.png'
 import about_icon from './about_icon.png'
@@ -47,10 +47,10 @@ export const assets = {
     support_icon,
     exchange_icon,
     quality_icon,
+    dropdown_icon,
     
    /* 
     bin_icon,
-    dropdown_icon,
     star_dull_icon,
     star_icon,
     about_icon,
@@ -67,8 +67,8 @@ export const products = [
       "description": "A soft and comfortable cotton t-shirt, perfect for everyday wear.",
       "price": 19.99,
       "image": [p_img1],
-      "category": "Clothing",
-      "subCategory": "T-Shirts",
+      "category": "Men",
+      "subCategory": "Topwear",
       "sizes": ["S", "M", "L", "XL"],
       "date": "2024-12-01",
       "bestSeller": true
@@ -79,8 +79,8 @@ export const products = [
       "description": "Classic-fit denim jeans with a durable and stylish design.",
       "price": 49.99,
       "image": [p_img2],
-      "category": "Clothing",
-      "subCategory": "Jeans",
+      "category": "Men",
+      "subCategory": "Bottomwear",
       "sizes": ["28", "30", "32", "34", "36"],
       "date": "2024-11-15",
       "bestSeller": false
@@ -91,8 +91,8 @@ export const products = [
       "description": "Premium leather handbag with spacious compartments for everyday essentials.",
       "price": 89.99,
       "image": [p_img3],
-      "category": "Accessories",
-      "subCategory": "Handbags",
+      "category": "Women",
+      "subCategory": "Topwear",
       "sizes": [],
       "date": "2024-12-10",
       "bestSeller": true
@@ -103,8 +103,8 @@ export const products = [
       "description": "Lightweight running shoes with excellent grip and comfort.",
       "price": 59.99,
       "image": [p_img4],
-      "category": "Footwear",
-      "subCategory": "Sneakers",
+      "category": "Men",
+      "subCategory": "Bottomwear",
       "sizes": ["6", "7", "8", "9", "10", "11"],
       "date": "2024-12-05",
       "bestSeller": true
@@ -115,8 +115,8 @@ export const products = [
       "description": "Warm and stylish woolen scarf, perfect for chilly weather.",
       "price": 14.99,
       "image": [p_img5],
-      "category": "Accessories",
-      "subCategory": "Scarves",
+      "category": "Women",
+      "subCategory": "Topwear",
       "sizes": [],
       "date": "2024-11-20",
       "bestSeller": false
@@ -127,8 +127,8 @@ export const products = [
       "description": "Feature-rich smartwatch with fitness tracking and notification features.",
       "price": 129.99,
       "image": [p_img6],
-      "category": "Electronics",
-      "subCategory": "Wearables",
+      "category": "Accessories",
+      "subCategory": "Topwear",
       "sizes": [],
       "date": "2024-12-12",
       "bestSeller": true
@@ -140,7 +140,7 @@ export const products = [
       "price": 9.99,
       "image": [p_img7],
       "category": "Accessories",
-      "subCategory": "Caps",
+      "subCategory": "Topwear",
       "sizes": ["One Size"],
       "date": "2024-11-25",
       "bestSeller": false
@@ -152,7 +152,7 @@ export const products = [
       "price": 99.99,
       "image": [p_img8],
       "category": "Clothing",
-      "subCategory": "Jackets",
+      "subCategory": "Winterwear",
       "sizes": ["M", "L", "XL"],
       "date": "2024-12-08",
       "bestSeller": true
@@ -176,7 +176,7 @@ export const products = [
       "price": 29.99,
       "image": [p_img10],
       "category": "Accessories",
-      "subCategory": "Eyewear",
+      "subCategory": "Topwear",
       "sizes": [],
       "date": "2024-12-11",
       "bestSeller": true
