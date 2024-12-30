@@ -24,6 +24,7 @@ import exchange_icon from './exchange_icon.png'
 import quality_icon from './quality_icon.png'
 import support_icon from './support_icon.png'
 import dropdown_icon from './dropdown_icon.png'
+import cross_icon from './cross_icon.png'
 
 /*
 import bin_icon from './bin_icon.png'
@@ -33,7 +34,6 @@ import about_icon from './about_icon.png'
 import contact_icon from './contact_icon.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
-import cross_icon from './cross_icon.png'
 
 */
 
@@ -48,8 +48,9 @@ export const assets = {
     exchange_icon,
     quality_icon,
     dropdown_icon,
+    cross_icon
     
-   /* 
+  /* 
     bin_icon,
     star_dull_icon,
     star_icon,
@@ -57,7 +58,7 @@ export const assets = {
     contact_icon,
     razorpay_logo,
     stripe_logo,
-    cross_icon */ 
+  */ 
 }
 
 export const products = [
