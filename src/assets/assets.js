@@ -63,7 +63,7 @@ export const assets = {
 
 export const products = [
     {
-      "id": "1",
+      "id": "aaaa",
       "name": "Classic Cotton T-Shirt",
       "description": "A soft and comfortable cotton t-shirt, perfect for everyday wear.",
       "price": 19.99,
