@@ -25,11 +25,12 @@ import quality_icon from './quality_icon.png'
 import support_icon from './support_icon.png'
 import dropdown_icon from './dropdown_icon.png'
 import cross_icon from './cross_icon.png'
+import StarIcon from '@mui/icons-material/Star';
+import StarBorderIcon from '@mui/icons-material/StarBorder';
 
 /*
 import bin_icon from './bin_icon.png'
 import star_dull_icon from './star_dull_icon.png'
-import star_icon from './star_icon.png'
 import about_icon from './about_icon.png'
 import contact_icon from './contact_icon.png'
 import razorpay_logo from './razorpay_logo.png'
@@ -48,7 +49,9 @@ export const assets = {
     exchange_icon,
     quality_icon,
     dropdown_icon,
-    cross_icon
+    cross_icon,
+    StarIcon,
+    StarBorderIcon,
     
   /* 
     bin_icon,
