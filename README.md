@@ -1,6 +1,4 @@
 # Clothing Store
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/sameedJafri/clothing-store)
-
 A modern and responsive e-commerce frontend for a clothing store. This application is built using React, Vite, and styled with Tailwind CSS, providing a clean and intuitive user interface for browsing and shopping for apparel. The project emphasizes a component-based architecture and utilizes React Context for efficient state management.
 
 ## Features
